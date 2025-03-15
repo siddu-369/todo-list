@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.bg-container {
+  background-color: #f9fbfe;
+  height: 100vh;
+}
+
+.main-heading {
+  color: black;
+  font-weight: 800;
+  font-family: roboto;
+  font-size: 32px;
+  text-align: center;
+  padding: 20px;
+}
+
+.todo-input {
+  width: 70%;
+  padding: 10px;
+  background-color: white;
+  border: solid 1px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.todo-button,
+.todo-delete-button,
+.todo-save-button {
+  background-color: rgb(58, 63, 212);
+  color: white;
+  font-weight: 500;
+  border: solid 1px;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+.todo-save-button {
+  background-color: green;
+}
+.todo-delete-button {
+  background-color: red;
+}
+.todo-item-container {
+  margin-top: 15px;
+}
+
+.label-container {
+  background-color: #e6f6ff;
+  width: 80%;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #096f92;
+  border-right: none;
+  border-top: none;
+  border-bottom: none;
+  border-radius: 4px;
+}
+
+.checkbox-input {
+  width: 20px;
+  height: 20px;
+  margin-top: 12px;
+  margin-right: 12px;
+}
+
+.checkbox-label {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  width: 82%;
+  margin: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
+}
+
+.delete-icon-container {
+  text-align: right;
+  width: 18%;
+}
+.delete-icon {
+  padding: 15px;
+}
